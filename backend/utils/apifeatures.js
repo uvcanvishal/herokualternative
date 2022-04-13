@@ -1,7 +1,7 @@
 class ApiFeatures{
     constructor(query,queryStr){
         this.query = query;
-        this.queryStr = queryStr
+        this.queryStr = queryStr;
     }
 
     search(){
@@ -14,8 +14,10 @@ class ApiFeatures{
         :{};
 
         
-
+        //console.log(keyword.name.$regex+"apifeatures");
         this.query = this.query.find({...keyword});
+        //console.log(this.query);
+        //console.log(this+"inside api features");
         return this;
     }
 
