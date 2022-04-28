@@ -18,7 +18,7 @@ const About = () => {
           <div>
             <Avatar
               style={{ width: "10vmax", height: "10vmax", margin: "2vmax 0" }}
-              src="https://res.cloudinary.com/dingkw5vs/image/upload/v1649741686/products/aqjidv5y5mcbgfernbeg.jpg"
+              src="https://res.cloudinary.com/dingkw5vs/image/upload/v1648615344/avatars/ucthsyf0fpsqdr7zvbv5.jpg"
               alt="Founder"
             />
             <Typography>Vishal Singh</Typography>
